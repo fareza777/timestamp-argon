@@ -1,0 +1,3 @@
+-keepattributes *Annotation*,InnerClasses,Signature
+-keep class com.phototimestamp.pro.** { *; }
+-dontwarn com.google.zxing.**

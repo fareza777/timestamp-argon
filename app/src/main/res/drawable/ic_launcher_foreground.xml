@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft Drop Shadow Behind Camera Body -->
+    <path
+        android:fillColor="#55000000"
+        android:pathData="M31,38 L39,38 L43,32 L65,32 L69,38 L77,38 C81.9,38 85.5,41.6 85.5,46.5 L85.5,73.5 C85.5,78.4 81.9,82 77,82 L31,82 C26.1,82 22.5,78.4 22.5,73.5 L22.5,46.5 C22.5,41.6 26.1,38 31,38 Z" />
+
+    <!-- Metallic Pro Camera Body Gradient -->
+    <path android:pathData="M31,35.5 L39,35.5 L43,29.5 L65,29.5 L69,35.5 L77,35.5 C81.9,35.5 85.5,39.1 85.5,44 L85.5,71 C85.5,75.9 81.9,79.5 77,79.5 L31,79.5 C26.1,79.5 22.5,75.9 22.5,71 L22.5,44 C22.5,39.1 26.1,35.5 31,35.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="30"
+                android:endX="85"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F8FAFC" />
+                <item android:offset="0.5" android:color="#E2E8F0" />
+                <item android:offset="1.0" android:color="#94A3B8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Emerald Accent Grip Strip on Left -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M26.5,43 C26.5,41.6 27.6,40.5 29,40.5 L30.5,40.5 L30.5,74.5 L29,74.5 C27.6,74.5 26.5,73.4 26.5,72 Z" />
+
+    <!-- Outer Lens Ring (Dark Titanium) -->
+    <path
+        android:fillColor="#090E1A"
+        android:pathData="M54,38.5 A19,19 0 1,0 54,76.5 A19,19 0 1,0 54,38.5 Z" />
+
+    <!-- Inner Glowing Emerald/Cyan Lens Ring -->
+    <path android:pathData="M54,41.5 A16,16 0 1,0 54,73.5 A16,16 0 1,0 54,41.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="41"
+                android:endX="70"
+                android:endY="73"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#10B981" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Deep Optical Glass Core -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M54,44.5 A13,13 0 1,0 54,70.5 A13,13 0 1,0 54,44.5 Z" />
+
+    <!-- Glass Lens Specular Highlight -->
+    <path
+        android:fillColor="#4438BDF8"
+        android:pathData="M48,49 A4.5,4.5 0 1,0 48,58 A4.5,4.5 0 1,0 48,49 Z" />
+
+    <!-- Precision Clock Hands inside Lens -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,49.5 L54,57.5 L60,61" />
+
+    <!-- Center Clock Pivot Dot -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,55.3 A2.2,2.2 0 1,0 54,59.7 A2.2,2.2 0 1,0 54,55.3 Z" />
+
+    <!-- Golden GPS Verification Badge at Bottom-Right Corner -->
+    <path
+        android:fillColor="#090E1A"
+        android:pathData="M73,63 A10.5,10.5 0 1,0 73,84 A10.5,10.5 0 1,0 73,63 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M73,65 A8.5,8.5 0 1,0 73,82 A8.5,8.5 0 1,0 73,65 Z" />
+    <path
+        android:strokeColor="#090E1A"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M69.5,73.5 L72,76 L76.8,71" />
+</vector>
